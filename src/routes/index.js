@@ -5,7 +5,7 @@ const { json } = require('body-parser');
 const express = require('express');
 const router = express.Router();
 const content = require('../data/station.json');
-const { findStationById, calculatePresenceScore } = require('../utils/utils');
+const { findStationById, calculatePresenceScore, sortByAdjacency } = require('../utils/utils');
 
 
 
@@ -28,7 +28,7 @@ router.get('/:type/:id', (req, res) => {
     const display_name = name.toUpperCase();
     if (content[type] && content[type][key]) {
         const rerData = content[type][key];
-        res.render('display', { objects: rerData, title: display_name, type: type, id: id });
+        res.render('display', { objects: rerData, title: display_name, type: type, id: id, sortAdj: sortByAdjacency });
     } else {
         res.status(404).send('Not found');
     }

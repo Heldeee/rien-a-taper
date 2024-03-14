@@ -13,8 +13,8 @@
           "rA12",
           "rA35"
         ],
-        "control_level": 0,
-        "last_update": "2024-03-14T15:08:56.537Z"
+        "control_level": 11,
+        "last_update": "2024-03-14T19:33:31.342Z"
       },
       {
         "id": "rA12",
@@ -25,6 +25,10 @@
           "metro_8",
           "metro_9",
           "rer_e"
+        ],
+        "adj": [
+          "rA11",
+          "rA13"
         ],
         "control_level": 0,
         "last_update": "2024-03-14T14:59:42.627Z"
@@ -41,6 +45,10 @@
           "rer_b",
           "rer_d"
         ],
+        "adj": [
+          "rA12",
+          "rA14"
+        ],
         "control_level": 0
       },
       {
@@ -51,6 +59,10 @@
           "metro_14",
           "rer_d",
           "train_r"
+        ],
+        "adj": [
+          "rA13",
+          "rA15"
         ],
         "control_level": 0
       },
@@ -63,25 +75,42 @@
           "metro_6",
           "metro_9"
         ],
+        "adj": [
+          "rA14",
+          "rA21"
+        ],
         "control_level": 0
       },
       {
         "id": "rA21",
         "name": "Vincennes",
         "correspondance": [],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA15",
+          "rA36",
+          "rA38"
+        ]
       },
       {
         "id": "rA31",
         "name": "Reuil-Malmaison",
         "correspondance": [],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA32",
+          "rA46"
+        ]
       },
       {
         "id": "rA32",
         "name": "Nanterre - Ville",
         "correspondance": [],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA31",
+          "rA33"
+        ]
       },
       {
         "id": "rA33",
@@ -89,13 +118,22 @@
         "correspondance": [
           "train_l"
         ],
+        "adj": [
+          "rA32",
+          "rA34"
+        ],
         "control_level": 0
       },
       {
         "id": "rA34",
         "name": "Nanterre - Prefecture",
         "correspondance": [],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA33",
+          "rA35",
+          "rA43"
+        ]
       },
       {
         "id": "rA35",
@@ -107,7 +145,11 @@
           "train_u",
           "train_l"
         ],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA34",
+          "rA11"
+        ]
       },
       {
         "id": "rA36",
@@ -115,55 +157,91 @@
         "correspondance": [
           "rer_e"
         ],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA21",
+          "rA37"
+        ]
       },
       {
         "id": "rA37",
         "name": "Neuilly - Plaisance",
         "correspondance": [],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA36",
+          "rA47"
+        ]
       },
       {
         "id": "rA38",
         "name": "Fontenay-sous-Bois",
         "correspondance": [],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA21",
+          "rA39"
+        ]
       },
       {
         "id": "rA39",
         "name": "Nogent-sur-Marne",
         "correspondance": [],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA38",
+          "rA310"
+        ]
       },
       {
         "id": "rA310",
         "name": "Joinville-le-Pont",
         "correspondance": [],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA39",
+          "rA311"
+        ]
       },
       {
         "id": "rA311",
         "name": "Saint-Maur - Créteil",
         "correspondance": [],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA310",
+          "rA312"
+        ]
       },
       {
         "id": "rA312",
         "name": "le parc de Saint-Maur",
         "correspondance": [],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA311",
+          "rA313"
+        ]
       },
       {
         "id": "rA313",
         "name": "Champigny",
         "correspondance": [],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA312",
+          "rA314"
+        ]
       },
       {
         "id": "rA314",
         "name": "La Varenne - Chennevières",
         "correspondance": [],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA313",
+          "rA410"
+        ]
       },
       {
         "id": "rA41",
@@ -171,7 +249,11 @@
         "correspondance": [
           "train_l"
         ],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA42",
+          "rA56"
+        ]
       },
       {
         "id": "rA42",
@@ -179,7 +261,11 @@
         "correspondance": [
           "train_l"
         ],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA41",
+          "rA43"
+        ]
       },
       {
         "id": "rA43",
@@ -188,7 +274,11 @@
           "train_l",
           "train_j"
         ],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA42",
+          "rA34"
+        ]
       },
       {
         "id": "rA44",
@@ -196,37 +286,60 @@
         "correspondance": [
           "tram_t13"
         ],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA45"
+        ]
       },
       {
         "id": "rA45",
         "name": "Le Vésinet - Le Pecq",
         "correspondance": [],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA44",
+          "rA46"
+        ]
       },
       {
         "id": "rA46",
         "name": "Chatou - Croissy",
         "correspondance": [],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA45",
+          "rA31"
+        ]
       },
       {
         "id": "rA47",
         "name": "Bry-sur-Marne",
         "correspondance": [],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA37",
+          "rA48"
+        ]
       },
       {
         "id": "rA48",
         "name": "Noisy-le-Grand - Mont d'Est",
         "correspondance": [],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA47",
+          "rA49"
+        ]
       },
       {
         "id": "rA49",
         "name": "Noisy - Champs",
         "correspondance": [],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA48",
+          "rA59"
+        ]
       },
       {
         "id": "rA410",
@@ -234,13 +347,20 @@
         "correspondance": [
           "bus_393"
         ],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA314",
+          "rA411"
+        ]
       },
       {
         "id": "rA411",
         "name": "Boissy-Saint-Léger",
         "correspondance": [],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA410"
+        ]
       },
       {
         "id": "rA51",
@@ -248,7 +368,10 @@
         "correspondance": [
           "train_l"
         ],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA52"
+        ]
       },
       {
         "id": "rA52",
@@ -256,7 +379,11 @@
         "correspondance": [
           "train_l"
         ],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA51",
+          "rA53"
+        ]
       },
       {
         "id": "rA53",
@@ -264,7 +391,11 @@
         "correspondance": [
           "train_l"
         ],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA52",
+          "rA54"
+        ]
       },
       {
         "id": "rA54",
@@ -272,7 +403,11 @@
         "correspondance": [
           "train_l"
         ],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA53",
+          "rA55"
+        ]
       },
       {
         "id": "rA55",
@@ -281,7 +416,11 @@
           "train_l",
           "train_j"
         ],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA54",
+          "rA56"
+        ]
       },
       {
         "id": "rA56",
@@ -289,7 +428,11 @@
         "correspondance": [
           "train_l"
         ],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA55",
+          "rA41"
+        ]
       },
       {
         "id": "rA57",
@@ -297,7 +440,10 @@
         "correspondance": [
           "train_j"
         ],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA58"
+        ]
       },
       {
         "id": "rA58",
@@ -305,7 +451,11 @@
         "correspondance": [
           "train_l"
         ],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA57",
+          "rA41"
+        ]
       },
       {
         "id": "rA59",
@@ -313,13 +463,21 @@
         "correspondance": [
           "train_l"
         ],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA49",
+          "rA510"
+        ]
       },
       {
         "id": "rA510",
         "name": "Lognes",
         "correspondance": [],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA59",
+          "rA511"
+        ]
       },
       {
         "id": "rA511",
@@ -327,13 +485,21 @@
         "correspondance": [
           "train_l"
         ],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA510",
+          "rA512"
+        ]
       },
       {
         "id": "rA512",
         "name": "Bussy-Saint-Georges",
         "correspondance": [],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA511",
+          "rA513"
+        ]
       },
       {
         "id": "rA513",
@@ -341,13 +507,20 @@
         "correspondance": [
           "train_l"
         ],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA512",
+          "rA514"
+        ]
       },
       {
         "id": "rA514",
         "name": "Marne-la-Vallée - Chessy",
         "correspondance": [],
-        "control_level": 0
+        "control_level": 0,
+        "adj": [
+          "rA513"
+        ]
       }
     ],
     "rer_b": [],

@@ -37,7 +37,6 @@
                 <h2>
                     <%= object.name %>
                 </h2>
-                </p>
                 <p>Correspondance:</p>
                 <ul>
                     <% object.correspondance.forEach(function(correspondance) { %>
@@ -46,7 +45,6 @@
                         </li>
                         <% }) %>
                 </ul>
-                </p>
                 <table>
                     <tr>
                         <td>
@@ -62,11 +60,13 @@
                         </td>
                         <td>
                             <p>Presence: <%= object.control_level> 10 ? "Yes" : "No" %>
+                        </td>
                     </tr>
                 </table>
             </div>
             <% }) %>
     </div>
+
 </body>
 
 </html>
