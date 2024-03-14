@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <link type="text/css" rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" type="image/png" href="../images/<%= type %>_<%= id %>.svg">
+    <script src="../js/utils.js"></script>
+</head>
+
+<body>
+
+    <div class="header">
+        <button id="home-button" href="/">Accueil</button>
+    </div>
+
+    <h1>
+        <table>
+            <tr>
+                <td>
+                    <img src="../images/<%= type %>_<%= id %>.svg" alt="<%= title %>" width="100" height="100">
+                </td>
+                <td>
+                    <%= title %>
+                </td>
+            </tr>
+        </table>
+    </h1>
+
+    <div class="object-list">
+        <% objects.forEach(function(object) { %>
+            <div class="object">
+                <h2>
+                    <%= object.name %>
+                </h2>
+                </p>
+                <p>Correspondance:</p>
+                <ul>
+                    <% object.correspondance.forEach(function(correspondance) { %>
+                        <li>
+                            <%= correspondance %>
+                        </li>
+                        <% }) %>
+                </ul>
+                </p>
+                <table>
+                    <tr>
+                        <td>
+                            <button onclick="signalPresence('<%= object.id %>')">Signal Control Presence</button>
+                        </td>
+                        <td>
+                            <button onclick="signalAbsence('<%= object.id %>')">Signal Control Absence</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Control: <%= object.control_level ? object.control_level : 0 %>%
+                        </td>
+                        <td>
+                            <p>Presence: <%= object.control_level> 10 ? "Yes" : "No" %>
+                    </tr>
+                </table>
+            </div>
+            <% }) %>
+    </div>
+</body>
+
+</html>

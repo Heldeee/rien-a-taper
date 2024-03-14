@@ -1,0 +1,105 @@
+.main {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 0 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.line-list {
+    list-style: none;
+    padding: 0;
+}
+
+.line-item {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.object-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.object-list img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.object {
+    background-color: #d6d6d6;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+.object h2 {
+    margin-top: 0;
+}
+
+.object p {
+    margin: 5px 0;
+}
+
+.object ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.object li {
+    margin-left: 20px;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+}
+
+.control {
+    width: 100px;
+    height: 50px;
+    background-color: gray;
+}
+
+.header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#transport-select {
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.station-list {
+    list-style-type: none;
+}
+
+.station-list .station:before {
+    content: none;
+}

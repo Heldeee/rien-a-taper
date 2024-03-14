@@ -1,0 +1,71 @@
+<!-- src/views/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css" type="text/css">
+    <link rel="icon" type="image/png" href="../images/logo.png">
+    <script src="../js/utils.js"></script>
+    <title>
+        <%= title %>
+    </title>
+</head>
+
+<body>
+    <h1>
+        <%= title %> - Toutes les lignes
+    </h1>
+    <div class="main">
+        <!-- Colonne pour le RER -->
+        <div class="column">
+            <h2>RER</h2>
+            <ul class="station-list">
+                <% Object.keys(rer).forEach(function(line) { %>
+                    <li class="station">
+                        <img src="../images/<%= line %>.svg" alt="Line Logo" class="line-logo" data-line="<%= line %>">
+                    </li>
+                    <% }) %>
+            </ul>
+        </div>
+        <!-- Colonne pour le métro -->
+        <div class="column">
+            <h2>Metros</h2>
+            <ul class="station-list">
+                <% Object.keys(metro).forEach(function(line) { %>
+                    <li class="station">
+                        <img src="../images/<%= line %>.svg" alt="Line Logo" class="line-logo" data-line="<%= line %>">
+                    </li>
+                    <% }) %>
+            </ul>
+        </div>
+        <!-- Colonne pour le tramway -->
+        <div class="column">
+            <h2>Tramways</h2>
+            <ul class="station-list">
+                <% Object.keys(tram).forEach(function(line) { %>
+                    <li class="station">
+                        <img src="../images/<%= line %>.svg" alt="Line Logo" class="line-logo" data-line="<%= line %>">
+                    </li>
+                    <% }) %>
+            </ul>
+        </div>
+        <!-- Colonne pour les trains -->
+        <div class="column">
+            <h2>Trains</h2>
+            <ul class="station-list">
+                <% Object.keys(train).forEach(function(line) { %>
+                    <li class="station">
+                        <img src="../images/<%= line %>.svg" alt="Line Logo" class="line-logo" data-line="<%= line %>">
+                    </li>
+                    <% }) %>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

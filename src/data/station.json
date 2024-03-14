@@ -1,0 +1,402 @@
+{
+  "rer": {
+    "rer_a": [
+      {
+        "id": "rA11",
+        "name": "Charles de Gaulle - Étoile",
+        "correspondance": [
+          "metro_1",
+          "metro_2",
+          "metro_6"
+        ],
+        "adj": [
+          "rA12",
+          "rA35"
+        ],
+        "control_level": 0,
+        "last_update": "2024-03-14T15:08:56.537Z"
+      },
+      {
+        "id": "rA12",
+        "name": "Auber",
+        "correspondance": [
+          "metro_3",
+          "metro_7",
+          "metro_8",
+          "metro_9",
+          "rer_e"
+        ],
+        "control_level": 0,
+        "last_update": "2024-03-14T14:59:42.627Z"
+      },
+      {
+        "id": "rA13",
+        "name": "Châtelet - Les Halles",
+        "correspondance": [
+          "metro_1",
+          "metro_4",
+          "metro_7",
+          "metro_11",
+          "metro_14",
+          "rer_b",
+          "rer_d"
+        ],
+        "control_level": 0
+      },
+      {
+        "id": "rA14",
+        "name": "Gare de Lyon",
+        "correspondance": [
+          "metro_1",
+          "metro_14",
+          "rer_d",
+          "train_r"
+        ],
+        "control_level": 0
+      },
+      {
+        "id": "A15",
+        "name": "Nation",
+        "correspondance": [
+          "metro_1",
+          "metro_2",
+          "metro_6",
+          "metro_9"
+        ],
+        "control_level": 0
+      },
+      {
+        "id": "rA21",
+        "name": "Vincennes",
+        "correspondance": [],
+        "control_level": 0
+      },
+      {
+        "id": "rA31",
+        "name": "Reuil-Malmaison",
+        "correspondance": [],
+        "control_level": 0
+      },
+      {
+        "id": "rA32",
+        "name": "Nanterre - Ville",
+        "correspondance": [],
+        "control_level": 0
+      },
+      {
+        "id": "rA33",
+        "name": "Nanterre - Université",
+        "correspondance": [
+          "train_l"
+        ],
+        "control_level": 0
+      },
+      {
+        "id": "rA34",
+        "name": "Nanterre - Prefecture",
+        "correspondance": [],
+        "control_level": 0
+      },
+      {
+        "id": "rA35",
+        "name": "La Défense",
+        "correspondance": [
+          "metro_1",
+          "tram_2",
+          "rer_e",
+          "train_u",
+          "train_l"
+        ],
+        "control_level": 0
+      },
+      {
+        "id": "rA36",
+        "name": "Val de Fontenay",
+        "correspondance": [
+          "rer_e"
+        ],
+        "control_level": 0
+      },
+      {
+        "id": "rA37",
+        "name": "Neuilly - Plaisance",
+        "correspondance": [],
+        "control_level": 0
+      },
+      {
+        "id": "rA38",
+        "name": "Fontenay-sous-Bois",
+        "correspondance": [],
+        "control_level": 0
+      },
+      {
+        "id": "rA39",
+        "name": "Nogent-sur-Marne",
+        "correspondance": [],
+        "control_level": 0
+      },
+      {
+        "id": "rA310",
+        "name": "Joinville-le-Pont",
+        "correspondance": [],
+        "control_level": 0
+      },
+      {
+        "id": "rA311",
+        "name": "Saint-Maur - Créteil",
+        "correspondance": [],
+        "control_level": 0
+      },
+      {
+        "id": "rA312",
+        "name": "le parc de Saint-Maur",
+        "correspondance": [],
+        "control_level": 0
+      },
+      {
+        "id": "rA313",
+        "name": "Champigny",
+        "correspondance": [],
+        "control_level": 0
+      },
+      {
+        "id": "rA314",
+        "name": "La Varenne - Chennevières",
+        "correspondance": [],
+        "control_level": 0
+      },
+      {
+        "id": "rA41",
+        "name": "Maison-Laffitte",
+        "correspondance": [
+          "train_l"
+        ],
+        "control_level": 0
+      },
+      {
+        "id": "rA42",
+        "name": "Sartrouville",
+        "correspondance": [
+          "train_l"
+        ],
+        "control_level": 0
+      },
+      {
+        "id": "rA43",
+        "name": "Houilles - Carrière-sur-Seine",
+        "correspondance": [
+          "train_l",
+          "train_j"
+        ],
+        "control_level": 0
+      },
+      {
+        "id": "rA44",
+        "name": "Saint-Germain-en-Laye",
+        "correspondance": [
+          "tram_t13"
+        ],
+        "control_level": 0
+      },
+      {
+        "id": "rA45",
+        "name": "Le Vésinet - Le Pecq",
+        "correspondance": [],
+        "control_level": 0
+      },
+      {
+        "id": "rA46",
+        "name": "Chatou - Croissy",
+        "correspondance": [],
+        "control_level": 0
+      },
+      {
+        "id": "rA47",
+        "name": "Bry-sur-Marne",
+        "correspondance": [],
+        "control_level": 0
+      },
+      {
+        "id": "rA48",
+        "name": "Noisy-le-Grand - Mont d'Est",
+        "correspondance": [],
+        "control_level": 0
+      },
+      {
+        "id": "rA49",
+        "name": "Noisy - Champs",
+        "correspondance": [],
+        "control_level": 0
+      },
+      {
+        "id": "rA410",
+        "name": "Sucy - Bonneuil",
+        "correspondance": [
+          "bus_393"
+        ],
+        "control_level": 0
+      },
+      {
+        "id": "rA411",
+        "name": "Boissy-Saint-Léger",
+        "correspondance": [],
+        "control_level": 0
+      },
+      {
+        "id": "rA51",
+        "name": "Cergy-le-Haut",
+        "correspondance": [
+          "train_l"
+        ],
+        "control_level": 0
+      },
+      {
+        "id": "rA52",
+        "name": "Cergy-Saint-Christophe",
+        "correspondance": [
+          "train_l"
+        ],
+        "control_level": 0
+      },
+      {
+        "id": "rA53",
+        "name": "Cergy-Préfecture",
+        "correspondance": [
+          "train_l"
+        ],
+        "control_level": 0
+      },
+      {
+        "id": "rA54",
+        "name": "Neuville-Université",
+        "correspondance": [
+          "train_l"
+        ],
+        "control_level": 0
+      },
+      {
+        "id": "rA55",
+        "name": "Conflans-Fin-d'Oise",
+        "correspondance": [
+          "train_l",
+          "train_j"
+        ],
+        "control_level": 0
+      },
+      {
+        "id": "rA56",
+        "name": "Achères-Ville",
+        "correspondance": [
+          "train_l"
+        ],
+        "control_level": 0
+      },
+      {
+        "id": "rA57",
+        "name": "Poissy",
+        "correspondance": [
+          "train_j"
+        ],
+        "control_level": 0
+      },
+      {
+        "id": "rA58",
+        "name": "Achères - Grand-Cormier",
+        "correspondance": [
+          "train_l"
+        ],
+        "control_level": 0
+      },
+      {
+        "id": "rA59",
+        "name": "Noisiel",
+        "correspondance": [
+          "train_l"
+        ],
+        "control_level": 0
+      },
+      {
+        "id": "rA510",
+        "name": "Lognes",
+        "correspondance": [],
+        "control_level": 0
+      },
+      {
+        "id": "rA511",
+        "name": "Torcy",
+        "correspondance": [
+          "train_l"
+        ],
+        "control_level": 0
+      },
+      {
+        "id": "rA512",
+        "name": "Bussy-Saint-Georges",
+        "correspondance": [],
+        "control_level": 0
+      },
+      {
+        "id": "rA513",
+        "name": "Val d'Europe",
+        "correspondance": [
+          "train_l"
+        ],
+        "control_level": 0
+      },
+      {
+        "id": "rA514",
+        "name": "Marne-la-Vallée - Chessy",
+        "correspondance": [],
+        "control_level": 0
+      }
+    ],
+    "rer_b": [],
+    "rer_c": [],
+    "rer_d": [],
+    "rer_e": []
+  },
+  "metro": {
+    "metro_1": [],
+    "metro_2": [],
+    "metro_3": [],
+    "metro_3b": [],
+    "metro_4": [],
+    "metro_5": [],
+    "metro_6": [],
+    "metro_7": [],
+    "metro_7b": [],
+    "metro_8": [],
+    "metro_9": [],
+    "metro_10": [],
+    "metro_11": [],
+    "metro_12": [],
+    "metro_13": [],
+    "metro_14": []
+  },
+  "tram": {
+    "tram_1": [],
+    "tram_2": [],
+    "tram_3a": [],
+    "tram_3b": [],
+    "tram_4": [],
+    "tram_5": [],
+    "tram_6": [],
+    "tram_7": [],
+    "tram_8": [],
+    "tram_9": [],
+    "tram_10": [],
+    "tram_11": [],
+    "tram_12": [],
+    "tram_13": []
+  },
+  "train": {
+    "train_h": [],
+    "train_j": [],
+    "train_k": [],
+    "train_l": [],
+    "train_n": [],
+    "train_p": [],
+    "train_r": [],
+    "train_u": []
+  }
+}
